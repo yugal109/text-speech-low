@@ -1,0 +1,56 @@
+# Python
+*.py[cod]
+*__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# If you're using SQLite:
+db.sqlite3
+db.sqlite3-journal
+
+# Django migrations
+*/migrations/*
+
+# Ignore specific Django secret files (customize this based on your setup)
+.env
+config/settings/local.py
+config/settings/*.pyc
+
+# Media folder (store uploaded files)
+media/
+staticfiles/
+
+# If you're using staticfiles for managing static files:
+static/
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.venv
+.venv
+
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Pycharm
+.idea/
+
+# JetBrains
+*.iml
+out/
